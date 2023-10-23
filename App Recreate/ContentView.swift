@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    //let restaurants: Restaurant
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TabView {
+//                JapangoView()
+//                    .tabItem {
+//                        Label("Home", systemImage:"house")
+//                    }
+                HomeView()
+                    .tabItem {
+                        Label("Home", systemImage:"house")
+                    }
+                LikeView()
+                    .tabItem {
+                        Label("Likes", systemImage:"heart.square.fill")
+                    }
+            }
         }
-        .padding()
     }
 }
 

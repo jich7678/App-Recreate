@@ -14,6 +14,17 @@
 		C2176B4E2AE082BB007E282A /* App_RecreateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B4D2AE082BB007E282A /* App_RecreateTests.swift */; };
 		C2176B582AE082BB007E282A /* App_RecreateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B572AE082BB007E282A /* App_RecreateUITests.swift */; };
 		C2176B5A2AE082BB007E282A /* App_RecreateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B592AE082BB007E282A /* App_RecreateUITestsLaunchTests.swift */; };
+		C2176B672AE0838B007E282A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B662AE0838B007E282A /* HomeView.swift */; };
+		C2176B692AE083A3007E282A /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B682AE083A3007E282A /* LikeView.swift */; };
+		C2176B6B2AE08770007E282A /* LocalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B6A2AE08770007E282A /* LocalDetailView.swift */; };
+		C2176B6D2AE08783007E282A /* GlobalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B6C2AE08783007E282A /* GlobalDetailView.swift */; };
+		C2176B702AE0AA37007E282A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B6F2AE0AA37007E282A /* Restaurant.swift */; };
+		C2176B742AE5D7C2007E282A /* GaiaMasalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B732AE5D7C1007E282A /* GaiaMasalaView.swift */; };
+		C2176B762AE5E5F0007E282A /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2176B752AE5E5F0007E282A /* RestaurantViewModel.swift */; };
+		C21DB9952AE63AB80052E949 /* RestaurantDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21DB9942AE63AB80052E949 /* RestaurantDetailViewModel.swift */; };
+		C21DB9972AE66B210052E949 /* JapangoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21DB9962AE66B210052E949 /* JapangoView.swift */; };
+		C21DB9992AE66C9E0052E949 /* CentralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21DB9982AE66C9E0052E949 /* CentralView.swift */; };
+		C21DB99B2AE66CB70052E949 /* DisfrutarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21DB99A2AE66CB70052E949 /* DisfrutarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		C2176B532AE082BB007E282A /* App RecreateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App RecreateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2176B572AE082BB007E282A /* App_RecreateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_RecreateUITests.swift; sourceTree = "<group>"; };
 		C2176B592AE082BB007E282A /* App_RecreateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_RecreateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2176B662AE0838B007E282A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2176B682AE083A3007E282A /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		C2176B6A2AE08770007E282A /* LocalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDetailView.swift; sourceTree = "<group>"; };
+		C2176B6C2AE08783007E282A /* GlobalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDetailView.swift; sourceTree = "<group>"; };
+		C2176B6F2AE0AA37007E282A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		C2176B732AE5D7C1007E282A /* GaiaMasalaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaiaMasalaView.swift; sourceTree = "<group>"; };
+		C2176B752AE5E5F0007E282A /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		C21DB9942AE63AB80052E949 /* RestaurantDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewModel.swift; sourceTree = "<group>"; };
+		C21DB9962AE66B210052E949 /* JapangoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapangoView.swift; sourceTree = "<group>"; };
+		C21DB9982AE66C9E0052E949 /* CentralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralView.swift; sourceTree = "<group>"; };
+		C21DB99A2AE66CB70052E949 /* DisfrutarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisfrutarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,12 @@
 			children = (
 				C2176B3B2AE082B6007E282A /* App_RecreateApp.swift */,
 				C2176B3D2AE082B6007E282A /* ContentView.swift */,
+				C2176B662AE0838B007E282A /* HomeView.swift */,
+				C2176B682AE083A3007E282A /* LikeView.swift */,
+				C2176B6E2AE08790007E282A /* Detail Views */,
+				C21DB99C2AE675A70052E949 /* Restaurants */,
+				C21DB99E2AE675F30052E949 /* ViewModel */,
+				C21DB99D2AE675E50052E949 /* Model */,
 				C2176B3F2AE082BA007E282A /* Assets.xcassets */,
 				C2176B412AE082BA007E282A /* App_Recreate.entitlements */,
 				C2176B422AE082BA007E282A /* Preview Content */,
@@ -127,6 +155,43 @@
 				C2176B592AE082BB007E282A /* App_RecreateUITestsLaunchTests.swift */,
 			);
 			path = "App RecreateUITests";
+			sourceTree = "<group>";
+		};
+		C2176B6E2AE08790007E282A /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2176B6A2AE08770007E282A /* LocalDetailView.swift */,
+				C2176B6C2AE08783007E282A /* GlobalDetailView.swift */,
+			);
+			path = "Detail Views";
+			sourceTree = "<group>";
+		};
+		C21DB99C2AE675A70052E949 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				C2176B732AE5D7C1007E282A /* GaiaMasalaView.swift */,
+				C21DB9962AE66B210052E949 /* JapangoView.swift */,
+				C21DB9982AE66C9E0052E949 /* CentralView.swift */,
+				C21DB99A2AE66CB70052E949 /* DisfrutarView.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		C21DB99D2AE675E50052E949 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2176B6F2AE0AA37007E282A /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C21DB99E2AE675F30052E949 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2176B752AE5E5F0007E282A /* RestaurantViewModel.swift */,
+				C21DB9942AE63AB80052E949 /* RestaurantDetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21DB9992AE66C9E0052E949 /* CentralView.swift in Sources */,
+				C2176B6D2AE08783007E282A /* GlobalDetailView.swift in Sources */,
+				C2176B6B2AE08770007E282A /* LocalDetailView.swift in Sources */,
+				C21DB99B2AE66CB70052E949 /* DisfrutarView.swift in Sources */,
+				C21DB9952AE63AB80052E949 /* RestaurantDetailViewModel.swift in Sources */,
+				C2176B742AE5D7C2007E282A /* GaiaMasalaView.swift in Sources */,
+				C2176B702AE0AA37007E282A /* Restaurant.swift in Sources */,
+				C2176B672AE0838B007E282A /* HomeView.swift in Sources */,
+				C2176B692AE083A3007E282A /* LikeView.swift in Sources */,
+				C21DB9972AE66B210052E949 /* JapangoView.swift in Sources */,
+				C2176B762AE5E5F0007E282A /* RestaurantViewModel.swift in Sources */,
 				C2176B3E2AE082B6007E282A /* ContentView.swift in Sources */,
 				C2176B3C2AE082B6007E282A /* App_RecreateApp.swift in Sources */,
 			);
